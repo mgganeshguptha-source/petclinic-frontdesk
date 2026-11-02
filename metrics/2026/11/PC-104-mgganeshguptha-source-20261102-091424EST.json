@@ -1,0 +1,212 @@
+{
+  "ac_assumed": 3,
+  "ac_met": 32,
+  "ac_not_met": 1,
+  "ac_total": 33,
+  "ac_unverifiable": 0,
+  "ac_verdict": "CHANGES_REQUESTED",
+  "actor": "mgganeshguptha-source",
+  "attachments": [
+    {
+      "bytes": 1609,
+      "converted_from": null,
+      "kind": "text",
+      "name": "store/visits/visits-bridge.ts",
+      "sha256": "f3e2a4085f89b3d0edc2d539d68132c5bede4429db99be5e0e01574ce912f1e8",
+      "source": "stories/PC-104/store/visits/visits-bridge.ts"
+    },
+    {
+      "bytes": 372,
+      "converted_from": null,
+      "kind": "text",
+      "name": "store/visits/visits.actions.ts",
+      "sha256": "f85ea26d58c1f5a4210d87ab956eb6ce29f168a455f57c5dbaa23b424be4e129",
+      "source": "stories/PC-104/store/visits/visits.actions.ts"
+    },
+    {
+      "bytes": 923,
+      "converted_from": null,
+      "kind": "text",
+      "name": "store/visits/visits.effects.ts",
+      "sha256": "e9cd3aff18e5f5806649a5cff399a4543505b993e010863999aea72df27c9cc6",
+      "source": "stories/PC-104/store/visits/visits.effects.ts"
+    },
+    {
+      "bytes": 771,
+      "converted_from": null,
+      "kind": "text",
+      "name": "store/visits/visits.reducer.ts",
+      "sha256": "18757bfcf0a4530b9cc3ae2f974205fae53a9b53b45e0378b3b64719e088141b",
+      "source": "stories/PC-104/store/visits/visits.reducer.ts"
+    },
+    {
+      "bytes": 1188,
+      "converted_from": null,
+      "kind": "text",
+      "name": "store/visits/visits.selectors.ts",
+      "sha256": "ed0fecc7e369cb8d27f724769032fbebeeacc98c9399a7797ef781c60b4bd39d",
+      "source": "stories/PC-104/store/visits/visits.selectors.ts"
+    },
+    {
+      "bytes": 297,
+      "converted_from": null,
+      "kind": "text",
+      "name": "visits/visit-status.ts",
+      "sha256": "63b5196c53d281aa6687df53221840d3e347f934b8bb53b27e52634e0c09b9b3",
+      "source": "stories/PC-104/visits/visit-status.ts"
+    }
+  ],
+  "blockers": 0,
+  "clarification_items": null,
+  "clarifications": 0,
+  "confirm_no_phi": true,
+  "contract_output": {
+    "changed_contract_files": [
+      "src/app/host-bridge/host-bridge.service.ts",
+      "src/app/host-bridge/visits-bridge.types.ts"
+    ],
+    "files": [],
+    "skipped": [],
+    "status": "missing",
+    "summary": null
+  },
+  "cost_reported_by": "session_metrics",
+  "coverage_pct": null,
+  "credit_source": "sdk",
+  "credits_actual": null,
+  "decisions_available": 0,
+  "dependencies": {
+    "contracts": [
+      {
+        "file": "stories/PC-104/store/visits/visits-bridge.ts",
+        "repo": "petclinic-angular-demo"
+      },
+      {
+        "file": "stories/PC-104/store/visits/visits.actions.ts",
+        "repo": "petclinic-angular-demo"
+      },
+      {
+        "file": "stories/PC-104/store/visits/visits.effects.ts",
+        "repo": "petclinic-angular-demo"
+      },
+      {
+        "file": "stories/PC-104/store/visits/visits.reducer.ts",
+        "repo": "petclinic-angular-demo"
+      },
+      {
+        "file": "stories/PC-104/store/visits/visits.selectors.ts",
+        "repo": "petclinic-angular-demo"
+      },
+      {
+        "file": "stories/PC-104/visits/visit-status.ts",
+        "repo": "petclinic-angular-demo"
+      }
+    ],
+    "line": "repos",
+    "ok": true,
+    "repos": [
+      "petclinic-angular-demo"
+    ],
+    "warnings": 0
+  },
+  "design_required": "YES",
+  "dur_code_review": 15.0,
+  "dur_coding": 30.6,
+  "dur_context": 210.4,
+  "dur_design": 56.2,
+  "dur_documentation": 45.2,
+  "dur_prompt_steps": 77.0,
+  "dur_raise_pr": 18.1,
+  "dur_repo_instructions": 25.8,
+  "dur_unit_testing": 0.0,
+  "dur_validation": 46.7,
+  "duration_sec": 1833.4,
+  "engine_ref": "v1",
+  "feasibility": "GO",
+  "feature_id": "PC-104",
+  "finished_at": "2026-11-02T14:21:02Z",
+  "halt_detail": null,
+  "halt_gate": "clarification",
+  "halt_phase": null,
+  "input_guard": {
+    "actor": "mgganeshguptha-source",
+    "attachments": 6,
+    "confirm_no_phi": true,
+    "finding_types": [],
+    "findings": 0,
+    "ok": true,
+    "phase": "raise_pr",
+    "pii_scan": true
+  },
+  "loopback_ac": 0,
+  "loopback_coverage": 0,
+  "loopback_review": 0,
+  "loopback_scope": 0,
+  "loopback_validation": 0,
+  "model_code_review": "claude-haiku-5.5",
+  "model_coding": "claude-sonnet-5.5",
+  "model_context": "claude-haiku-5.5",
+  "model_design": "claude-haiku-5.5",
+  "model_documentation": "claude-haiku-5.5",
+  "model_prompt_steps": "claude-haiku-5.5",
+  "model_raise_pr": "claude-haiku-5.5",
+  "model_repo_instructions": "claude-haiku-5.5",
+  "model_unit_testing": "claude-haiku-5.5",
+  "model_validation": "claude-haiku-5.5",
+  "models_used": "claude-haiku-5.5,claude-sonnet-5.5",
+  "nano_aiu_code_review": 1040727000.0,
+  "nano_aiu_coding": 24033340000.0,
+  "nano_aiu_context": 7468097000.0,
+  "nano_aiu_design": 1565231500.0,
+  "nano_aiu_documentation": 1528765500.0,
+  "nano_aiu_prompt_steps": 2103086000.0,
+  "nano_aiu_raise_pr": 768998000.0,
+  "nano_aiu_repo_instructions": 1008701500.0,
+  "nano_aiu_total": 34610807000.0,
+  "nano_aiu_validation": 1648598500.0,
+  "phase_seq": "repo_instructions,context,design,prompt_steps,coding,code_review,unit_testing,validation,documentation,raise_pr",
+  "phases_run": 10,
+  "premium_cost_code_review": 1.0,
+  "premium_cost_coding": 1.0,
+  "premium_cost_context": 4.0,
+  "premium_cost_design": 1.0,
+  "premium_cost_documentation": 1.0,
+  "premium_cost_prompt_steps": 1.0,
+  "premium_cost_raise_pr": 1.0,
+  "premium_cost_repo_instructions": 1.0,
+  "premium_cost_total": 8.0,
+  "premium_cost_validation": 1.0,
+  "quality_score": 90,
+  "repo": "mgganeshguptha-source/petclinic-frontdesk",
+  "resumed": true,
+  "run_id": "41460014245",
+  "schema_version": 6,
+  "started_at": "2026-11-02T13:50:29Z",
+  "status": "done",
+  "story_path": "stories/PC-104/PC-104.md",
+  "story_sha256": "315367203f0b75d3cbf7ad90b6aec2b494609181d9016473b2b5b7e13afbbc2c",
+  "tokens_cache_read": 1890916,
+  "tokens_code_review": 155884,
+  "tokens_coding": 316726,
+  "tokens_context": 268505,
+  "tokens_design": 318766,
+  "tokens_documentation": 455002,
+  "tokens_input": 2407703,
+  "tokens_output": 71028,
+  "tokens_prompt_steps": 366035,
+  "tokens_raise_pr": 210007,
+  "tokens_total": 2478731,
+  "tokens_total_all_runs": 3940783,
+  "tokens_validation": 387806,
+  "toolkit_ref": "main",
+  "usage_claude-haiku-5.5_input": 3522091,
+  "usage_claude-haiku-5.5_nano_aiu": 17132205000.0,
+  "usage_claude-haiku-5.5_output": 101966,
+  "usage_claude-haiku-5.5_premium_cost": 11.0,
+  "usage_claude-haiku-5.5_requests": 54,
+  "usage_claude-sonnet-5.5_input": 311674,
+  "usage_claude-sonnet-5.5_nano_aiu": 24033340000.0,
+  "usage_claude-sonnet-5.5_output": 5052,
+  "usage_claude-sonnet-5.5_premium_cost": 1.0,
+  "usage_claude-sonnet-5.5_requests": 5
+}

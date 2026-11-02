@@ -1,0 +1,7 @@
+VERDICT: PASS
+[NOTE]: HostBridgeService emits `VisitsBridgeState | null` (null = not published). The plan (D1) specified a discriminated union `HostBridgeReading` with `{available: false}`. The behaviour is equivalent, so this is not blocking, but the plan and code differ.
+[NOTE]: The `Window.petclinicHost` typing is a local `PetclinicHostWindow` interface with an `as unknown as` cast in host-bridge.service.ts. The plan (D6) asked for a `declare global` in visits-bridge.types.ts. Not blocking.
+[NOTE]: In visits-panel-view.ts `toPanelView` tests `if (state.error)`, so an empty-string error would fall through to the ready view instead of showing an error. The story says "when error is set". Consider `state.error !== null` to match the plan's wording. Not blocking, because the host sends a fixed non-empty message.
+[NOTE]: The "Visits by status" heading is rendered in every state, including waiting, loading and error. The plan (Step 5) asked for it in the ready state only. The story does not specify this, so it is not blocking.
+[NOTE]: `visits-by-status-panel.component.html` renders the pet text with `{{ visit.petText }}` built in the view model, and the date unchanged. This matches AC18 to AC20. Interpolation only, no innerHTML, so no XSS surface.
+[NOTE]: Sorting in `scheduledVisitsSorted`-equivalent logic (inside toPanelView) handles missing or empty date last, ties by id ascending, and returns a new array without mutating the input. Correct against AC22 to AC24.
