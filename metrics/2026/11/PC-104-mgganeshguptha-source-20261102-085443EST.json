@@ -1,0 +1,163 @@
+{
+  "ac_assumed": 2,
+  "ac_met": null,
+  "ac_not_met": null,
+  "ac_total": 23,
+  "ac_unverifiable": null,
+  "ac_verdict": null,
+  "actor": "mgganeshguptha-source",
+  "attachments": [
+    {
+      "bytes": 1609,
+      "converted_from": null,
+      "kind": "text",
+      "name": "store/visits/visits-bridge.ts",
+      "sha256": "f3e2a4085f89b3d0edc2d539d68132c5bede4429db99be5e0e01574ce912f1e8",
+      "source": "stories/PC-104/store/visits/visits-bridge.ts"
+    },
+    {
+      "bytes": 372,
+      "converted_from": null,
+      "kind": "text",
+      "name": "store/visits/visits.actions.ts",
+      "sha256": "f85ea26d58c1f5a4210d87ab956eb6ce29f168a455f57c5dbaa23b424be4e129",
+      "source": "stories/PC-104/store/visits/visits.actions.ts"
+    },
+    {
+      "bytes": 923,
+      "converted_from": null,
+      "kind": "text",
+      "name": "store/visits/visits.effects.ts",
+      "sha256": "e9cd3aff18e5f5806649a5cff399a4543505b993e010863999aea72df27c9cc6",
+      "source": "stories/PC-104/store/visits/visits.effects.ts"
+    },
+    {
+      "bytes": 771,
+      "converted_from": null,
+      "kind": "text",
+      "name": "store/visits/visits.reducer.ts",
+      "sha256": "18757bfcf0a4530b9cc3ae2f974205fae53a9b53b45e0378b3b64719e088141b",
+      "source": "stories/PC-104/store/visits/visits.reducer.ts"
+    },
+    {
+      "bytes": 1188,
+      "converted_from": null,
+      "kind": "text",
+      "name": "store/visits/visits.selectors.ts",
+      "sha256": "ed0fecc7e369cb8d27f724769032fbebeeacc98c9399a7797ef781c60b4bd39d",
+      "source": "stories/PC-104/store/visits/visits.selectors.ts"
+    },
+    {
+      "bytes": 297,
+      "converted_from": null,
+      "kind": "text",
+      "name": "visits/visit-status.ts",
+      "sha256": "63b5196c53d281aa6687df53221840d3e347f934b8bb53b27e52634e0c09b9b3",
+      "source": "stories/PC-104/visits/visit-status.ts"
+    }
+  ],
+  "blockers": 0,
+  "clarification_items": [
+    "[NEEDS CLARIFICATION]: CL-6 \u2014 Date sort key for the Scheduled list: the bridge defines `date` as a plain `string` with no format. \"Ascending by date\" needs a comparable form. (a) ISO calendar dates `yyyy-mm-dd`, ordered by string comparison (b) another format, name it (its pattern) so ascending orde"
+  ],
+  "clarifications": 1,
+  "confirm_no_phi": true,
+  "contract_output": null,
+  "cost_reported_by": "session_metrics",
+  "coverage_pct": null,
+  "credit_source": "sdk",
+  "credits_actual": null,
+  "decisions_available": 0,
+  "dependencies": {
+    "contracts": [
+      {
+        "file": "stories/PC-104/store/visits/visits-bridge.ts",
+        "repo": "petclinic-angular-demo"
+      },
+      {
+        "file": "stories/PC-104/store/visits/visits.actions.ts",
+        "repo": "petclinic-angular-demo"
+      },
+      {
+        "file": "stories/PC-104/store/visits/visits.effects.ts",
+        "repo": "petclinic-angular-demo"
+      },
+      {
+        "file": "stories/PC-104/store/visits/visits.reducer.ts",
+        "repo": "petclinic-angular-demo"
+      },
+      {
+        "file": "stories/PC-104/store/visits/visits.selectors.ts",
+        "repo": "petclinic-angular-demo"
+      },
+      {
+        "file": "stories/PC-104/visits/visit-status.ts",
+        "repo": "petclinic-angular-demo"
+      }
+    ],
+    "line": "repos",
+    "ok": true,
+    "repos": [
+      "petclinic-angular-demo"
+    ],
+    "warnings": 0
+  },
+  "design_required": "YES",
+  "dur_context": 114.1,
+  "dur_repo_instructions": 25.8,
+  "duration_sec": 326.2,
+  "engine_ref": "v1",
+  "feasibility": "GO",
+  "feature_id": "PC-104",
+  "finished_at": "2026-11-02T13:55:55Z",
+  "halt_detail": null,
+  "halt_gate": "clarification",
+  "halt_phase": "context",
+  "input_guard": {
+    "actor": "mgganeshguptha-source",
+    "attachments": 6,
+    "confirm_no_phi": true,
+    "finding_types": [],
+    "findings": 0,
+    "ok": true,
+    "phase": "context",
+    "pii_scan": true
+  },
+  "loopback_ac": 0,
+  "loopback_coverage": 0,
+  "loopback_review": 0,
+  "loopback_scope": 0,
+  "loopback_validation": 0,
+  "model_context": "claude-haiku-5.5",
+  "model_repo_instructions": "claude-haiku-5.5",
+  "models_used": "claude-haiku-5.5",
+  "nano_aiu_context": 3832558000.0,
+  "nano_aiu_repo_instructions": 1008701500.0,
+  "nano_aiu_total": 1779077000.0,
+  "phase_seq": "repo_instructions,context",
+  "phases_run": 2,
+  "premium_cost_context": 2.0,
+  "premium_cost_repo_instructions": 1.0,
+  "premium_cost_total": 1.0,
+  "quality_score": 92,
+  "repo": "mgganeshguptha-source/petclinic-frontdesk",
+  "resumed": true,
+  "run_id": "41457043157",
+  "schema_version": 6,
+  "started_at": "2026-11-02T13:50:29Z",
+  "status": "needs_input",
+  "story_path": "stories/PC-104/PC-104.md",
+  "story_sha256": "f8a1a6c9175c7d27ea9a3e429c278f788e5230a9a67b7c5b0deb9a08f4562521",
+  "tokens_cache_read": 253002,
+  "tokens_context": 343656,
+  "tokens_input": 333178,
+  "tokens_output": 10478,
+  "tokens_total": 343656,
+  "tokens_total_all_runs": 1038929,
+  "toolkit_ref": "main",
+  "usage_claude-haiku-5.5_input": 1010983,
+  "usage_claude-haiku-5.5_nano_aiu": 4841259500.0,
+  "usage_claude-haiku-5.5_output": 27946,
+  "usage_claude-haiku-5.5_premium_cost": 3.0,
+  "usage_claude-haiku-5.5_requests": 15
+}
