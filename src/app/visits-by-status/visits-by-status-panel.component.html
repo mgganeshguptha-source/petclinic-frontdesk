@@ -1,0 +1,32 @@
+<section class="visits-panel">
+  <h2>Visits by status</h2>
+  @if (view$ | async; as view) {
+    @switch (view.kind) {
+      @case ('waiting') {
+        <p>Waiting for the clinic app…</p>
+      }
+      @case ('loading') {
+        <p>Loading visits…</p>
+      }
+      @case ('error') {
+        <p>{{ view.message }}</p>
+      }
+      @case ('ready') {
+        <ul>
+          @for (line of view.counts; track line.label) {
+            <li>{{ line.label }}: {{ line.count }}</li>
+          }
+        </ul>
+        @if (view.scheduled.length === 0) {
+          <p>No scheduled visits.</p>
+        } @else {
+          <ul>
+            @for (visit of view.scheduled; track visit.id) {
+              <li>{{ visit.date }} — {{ visit.petText }}</li>
+            }
+          </ul>
+        }
+      }
+    }
+  }
+</section>
