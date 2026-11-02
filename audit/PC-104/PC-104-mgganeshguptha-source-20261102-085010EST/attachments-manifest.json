@@ -1,0 +1,69 @@
+{
+  "feature_id": "PC-104",
+  "folder": "stories/PC-104",
+  "ok": true,
+  "guard": {
+    "ok": true,
+    "confirm_no_phi": true,
+    "pii_scan": true,
+    "findings": 0,
+    "finding_types": [],
+    "attachments": 6
+  },
+  "items": [
+    {
+      "name": "store/visits/visits-bridge.ts",
+      "kind": "text",
+      "mime": "text/plain",
+      "bytes": 1609,
+      "sha256": "f3e2a4085f89b3d0edc2d539d68132c5bede4429db99be5e0e01574ce912f1e8",
+      "source": "stories/PC-104/store/visits/visits-bridge.ts",
+      "converted_from": null
+    },
+    {
+      "name": "store/visits/visits.actions.ts",
+      "kind": "text",
+      "mime": "text/plain",
+      "bytes": 372,
+      "sha256": "f85ea26d58c1f5a4210d87ab956eb6ce29f168a455f57c5dbaa23b424be4e129",
+      "source": "stories/PC-104/store/visits/visits.actions.ts",
+      "converted_from": null
+    },
+    {
+      "name": "store/visits/visits.effects.ts",
+      "kind": "text",
+      "mime": "text/plain",
+      "bytes": 923,
+      "sha256": "e9cd3aff18e5f5806649a5cff399a4543505b993e010863999aea72df27c9cc6",
+      "source": "stories/PC-104/store/visits/visits.effects.ts",
+      "converted_from": null
+    },
+    {
+      "name": "store/visits/visits.reducer.ts",
+      "kind": "text",
+      "mime": "text/plain",
+      "bytes": 771,
+      "sha256": "18757bfcf0a4530b9cc3ae2f974205fae53a9b53b45e0378b3b64719e088141b",
+      "source": "stories/PC-104/store/visits/visits.reducer.ts",
+      "converted_from": null
+    },
+    {
+      "name": "store/visits/visits.selectors.ts",
+      "kind": "text",
+      "mime": "text/plain",
+      "bytes": 1188,
+      "sha256": "ed0fecc7e369cb8d27f724769032fbebeeacc98c9399a7797ef781c60b4bd39d",
+      "source": "stories/PC-104/store/visits/visits.selectors.ts",
+      "converted_from": null
+    },
+    {
+      "name": "visits/visit-status.ts",
+      "kind": "text",
+      "mime": "text/plain",
+      "bytes": 297,
+      "sha256": "63b5196c53d281aa6687df53221840d3e347f934b8bb53b27e52634e0c09b9b3",
+      "source": "stories/PC-104/visits/visit-status.ts",
+      "converted_from": null
+    }
+  ]
+}
